@@ -1,8 +1,8 @@
 # COMP4007-ProjPhase2-Grp2
 
-A synergic work of Restaurant Queuing System.
+Restaurant Queuing System (RQS).
 
-Basic Operation of Restaurant Queuing System (RQS)
+Basic Operations:
 
 • Often found at the entrance of restaurants
 
@@ -24,7 +24,7 @@ the table would becomes available for the next Client
 ## Usage
 
 ```sh
-git clone https://github.com/MaureenZOU/COMP4007_Group2_Phase2.git
+git clone https://github.com/shakingkelly/COMP4007-ProjPhase2-Grp2.git
 ```
 
 Run
@@ -141,7 +141,7 @@ To
   ```
   
 ## Team Member
-Sun Jingxuan, Li Shiying, Zou Xueyan, Zhou Yunchang, Huang Hao, Liu Ruipeng
+A synergic work of Sun Jingxuan, Li Shiying, Zou Xueyan, Zhou Yunchang, Huang Hao, Liu Ruipeng
 
 ## Team Contribution
 | Team Member | System Design | Main System | Debug | GUI | Javadoc | ReadMe | Test System | Communication |
