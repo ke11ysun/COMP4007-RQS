@@ -36,8 +36,6 @@ Click on [Start Server], and Run the client Stream.
 
 For the ease of testing, you may want to change the **TimerSimulationSpeed** to 1000 and the **AvgEatingTime** to 180 in **ect/RQS.cfg**.
 
-Adapt to MacOS, **PC user** please refer to **"For PC User"** Section
-
 ### For IntelliJ IDEA User:
 1. Open **Final_V10_GUI** and run **TableGUI.java**
 2. Click on [Start Server], and Run the client Stream.
@@ -82,63 +80,6 @@ AppKickStarter.misc contains several misc classes...
 | Class Name | Description |
 | --- | --- |
 | Timer | It is a timer class which defines a timer. |
-
-## *****FOR PC USER*****
-This project is originally written on Mac, please feel free to directly run it on a mac machine.
-
-However, for **PC USERS**, please do some changes: 
-1. Go to the folder "./ProjPhase2-Grp2/FINAL_V10_GUI/src/AppKickstarter/"
-2. Change **"\r\n"** to **"\n"** in the following lines of the following java files:
-
-### Client.java 
-#### line 482:
-Change
-  ```
-  req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\r\n";
-  ```
-To
-  ```
-  req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\n";
-  ```
-
-### myThread.MainThread.java 
-
-#### line 109 
-Change
-  ```
-  details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\r\n";
-  ```
-To
-  ```
-  details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\n";
-  ```
-#### line 116 
-Change
-  ```
-  details = "QueueTooLong: " + cid + " " + nPersons+ "\r\n";
-  ```
-To
-  ```
-  details = "QueueTooLong: " + cid + " " + nPersons+ "\n";
-  ```
-#### line 141 
-Change
-  ```
-  details = "TableAssign: " + ticketAckNo + " " + tidstr + "\r\n";
-  ```
-To
-  ```
-  details = "TableAssign: " + ticketAckNo + " " + tidstr + "\n";
-  ```
-#### line 150 
-Change
-  ```
-  details = "Client CheckOut!" + "\r\n";
-  ```
-To
-  ```
-  details = "Client CheckOut!" + "\n";
-  ```
   
 ## Team Member
 A synergic work of Sun Jingxuan, Li Shiying, Zou Xueyan, Zhou Yunchang, Huang Hao, Liu Ruipeng
